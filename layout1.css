@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#000000;}
+#header{background-color: #000000;height:140px;width:100%; background-image:url(magma23.png); background-repeat:no-repeat; background-position:48%,0;}
+/*වෙබ් අඩවියේ මූලික පිරිසැලසුම*/
+@media screen and (min-width:600px) {
+#rtmenu,#lftmenu{background-color: #000000;width:20%; min-height:1400px;float:left;}
+#content{background-color:#000000;width:60%; min-height:1400px;float:left;display: -webkit-flex;display:flex;}}
+#footer{background-color: #333333;text-align:center;clear:both;height:20px; font-size: 16px; color:#FFFFFF;}
+#slogan{ background-color: #333333; color: #FF5300; text-align:center; font-size: 24px; font-weight: 900; height:30px; width:100%;}
+#article{ width:90%; min-height:1300px; background-color:#FFFFFF; margin:15px auto; margin-top:0; padding-right:25px; padding-left:25px;padding:15px;-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;}
+nav{ padding:7px; margin:15px auto; margin-bottom:0; background-color:#DFDFDF; height:30px; width:54%; text-align: center; display:inline -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;}
+
+.introduction p{font-size:24px;}
+
+/*සංචලන තීරයට අදාළ CSS බොත්තම් සැකසීම*/
+.topnav{overflow:hidden;}
+.topnav a{float: left; display:block; color:#ff5300; text-align:center; padding:2px; text-decoration:none; margin:0; margin-right:2px; width:90px;}
+.topnav a:hover{background-color:#FFFFFF;}
+.topnav a.active{background-color:#FFFFFF;}
+
